@@ -1,0 +1,16 @@
+.searchbox{
+    border-radius: 20px;
+     height: 50px;
+     width: 700px;
+     margin-top: 7%;
+     justify-content: right;
+     font-size: x-large;
+     border: 4px solid #8103ff ;
+    
+     
+    
+ }
+ .position{
+   
+     padding-left: 30%;
+ }

@@ -1,0 +1,50 @@
+.recipe-card{
+    margin: 5px;
+    box-shadow: 0 0 15px rgba(0.0,0,1);
+    float: left;
+    width: 20%;
+    grid-template-rows: 4;
+    padding: 4px;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color:#8103ff;
+    text-align: center;
+    
+
+}
+.recipe-card img{
+    width: 100%;
+    height: auto;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: rgb(18, 18, 19);
+}
+button{
+    height: 39px;
+    width: 100px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(17, 17, 17);
+    color: rgb(236, 235, 238);
+
+}
+.item1{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: goldenrod;
+   
+   
+}
+.item2{
+    text-decoration: none;
+    color: rgb(236, 235, 238);
+    font-size: 15px
+
+}

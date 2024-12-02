@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:black;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+  
+  #header {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 36px;
+    font-weight:bolder;
+    margin: 0;
+    color: white;
+    font-family:cursive;
+    margin-left: 120px;
+    width: 100px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .item-1 button {
+    margin-left: 15px;
+  }
+  
+  button {
+    border: none;
+    background: none;
+  }
+  
+  .button-1, .button-2 {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+  
+  .button-1:hover, .button-2:hover {
+    background-color: rgb(48, 243, 9);
+  }
+  
+  hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 15px solid rgb(111, 0, 255);
+    width: 100%;
+  }
+  
